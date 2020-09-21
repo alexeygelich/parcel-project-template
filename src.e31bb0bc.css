@@ -195,7 +195,7 @@ picture {
     z-index: 6;
     background: #e17992;
     flex-direction: column-reverse;
-    transform: translateY(-100%);
+    transform: translateY(-103%);
     pointer-events: none;
     transition: all 250ms linear;
   }
@@ -2056,6 +2056,9 @@ picture {
   border-radius: 50%;
   width: 32px;
   height: 32px;
+}
+.footer-section-ul .footer-section-a:hover, .footer-section-ul .footer-section-a:focus {
+  background-color: #D41443;
 }
 @media screen and (min-width: 768px) {
   .footer-section-ul .footer-section-a {
