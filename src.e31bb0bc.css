@@ -921,6 +921,11 @@ picture {
     line-height: 1.17;
   }
 
+  .products-list {
+    width: 280px;
+    margin: 0 auto;
+  }
+
   .products-list-item:not(:last-child) {
     margin-bottom: 130px;
   }
@@ -1056,6 +1061,11 @@ picture {
   background-size: contain;
   background-position-y: 790px;
 }
+@media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-width: 320px) {
+  .production {
+    background-image: url(/background-milk@2x.42c3ebc2.png);
+  }
+}
 @media screen and (min-width: 768px) {
   .production {
     background-image: none;
@@ -1064,7 +1074,6 @@ picture {
 }
 @media screen and (min-width: 1200px) {
   .production {
-    max-width: 1600px;
     min-height: 534px;
     padding-bottom: 310px;
     background-image: url(/background-milk-desktop.f4bd7545.png);
@@ -2058,7 +2067,7 @@ picture {
   height: 32px;
 }
 .footer-section-ul .footer-section-a:hover, .footer-section-ul .footer-section-a:focus {
-  background-color: #D41443;
+  background-color: #d41443;
 }
 @media screen and (min-width: 768px) {
   .footer-section-ul .footer-section-a {
@@ -2221,7 +2230,8 @@ picture {
   right: 50px;
   width: 50px;
   height: 50px;
-  background-image: url(/top.9a364590.png);
+  filter: invert(15%) sepia(100%) saturate(3745%) hue-rotate(336deg) brightness(86%) contrast(95%);
+  background-image: url(/arrow-up.c5f9bc3a.svg);
   background-size: cover;
   background-position: 50% 50%;
 }
