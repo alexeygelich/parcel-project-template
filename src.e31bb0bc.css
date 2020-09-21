@@ -2015,10 +2015,6 @@ picture {
   width: 100%;
 }
 
-.footer-section-container-p {
-  margin-bottom: 43px;
-}
-
 .text-style-h-two {
   color: #FFA5BA;
   font-family: Titan One;
@@ -2149,8 +2145,8 @@ picture {
     height: 20.4px;
   }
 
-  .footer-section-container-ul {
-    margin-bottom: 43px;
+  .footer-section-container {
+    padding-bottom: 43px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -2168,6 +2164,7 @@ picture {
   .footer-section-container {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 175px;
   }
 
   .footer-section-ul {
@@ -2181,10 +2178,6 @@ picture {
 
   .last-footer-container {
     height: 73px;
-  }
-
-  .footer-section-container-ul {
-    margin-bottom: 175px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2209,8 +2202,8 @@ picture {
     margin-bottom: 50px;
   }
 
-  .footer-section-container-ul {
-    margin-bottom: 98px;
+  .footer-section-container {
+    padding-bottom: 98px;
   }
 
   .last-footer-container {
