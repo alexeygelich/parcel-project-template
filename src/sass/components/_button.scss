@@ -1,0 +1,27 @@
+.button-red {
+  display: inline-block;
+  padding: 12px 23px;
+  border-radius: 20px;
+  color: $primary-color; 
+  background-color: $accent-color; 
+  border: 0;
+
+  &:hover,
+  &:focus {
+    background-color: $primary-point-bg-color;
+  }
+}
+
+.button-white {
+  display: inline-block; 
+  padding: 12px 23px;
+  border-radius: 20px;
+  color: $accent-color;
+  background-color: $primary-color;
+  border: 0;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-primary-btn;
+  }
+}

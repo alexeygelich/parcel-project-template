@@ -1,0 +1,54 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header {
+  flex: 0 0 auto;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
